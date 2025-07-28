@@ -64,5 +64,3 @@ sudo tcpdump -nn -vvv -X -s 0 -c 100
 /notes/           → written findings, summaries, or incident reports
 /README.md        → project overview and documentation
 /LICENSE          → project licensing (MIT)
-
-📄 [Download Incident Report](tcpdump%20network%20incident%20analysis%20report.docx)
