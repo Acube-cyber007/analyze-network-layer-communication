@@ -20,6 +20,12 @@ To troubleshoot the issue, you open **tcpdump** and try loading the webpage agai
 
 > “udp port 53 unreachable”
 
+## 📷 Packet Capture Evidence
+
+Below is a tcpdump output showing repeated DNS queries and ICMP "port 53 unreachable" responses:
+
+![ICMP DNS Unreachable](screenshots/icmp-dns-unreachable-tcpdump.jpg)
+
 Your task is to analyze the network communication and determine:
 - Which network protocol was affected
 - Why the destination port is unreachable
